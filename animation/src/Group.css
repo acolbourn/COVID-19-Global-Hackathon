@@ -1,0 +1,49 @@
+.Group {
+  margin: 1rem;
+}
+.Group-people {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Group-people,
+.Group-sidebar {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.Group-container {
+  display: flex;
+}
+
+.Group button {
+  display: inline;
+  margin: 2rem;
+}
+
+.Group-sidebar {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Group-testCount {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Group-text {
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
